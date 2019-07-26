@@ -1,0 +1,56 @@
+_____________________________________________________________
+             <<< INTERACTIVE GRAPHICS DEVICE >>>
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ an open-source R script by Marc Laurencelle, alias marQIsoft
+largely based on R example code for getGraphicsEvent function
+
+==================== Keyboard shortcuts: ====================
+
+ESC, Q, CTRL+[
+  To end interaction with the active graph
+
+A, =, +
+  To zoom in globally (x & y simultaneously)
+
+Z, -
+  To zoom out globally (x & y simultaneously)
+
+6 / 4 (ideally keys from the numeric keypad)
+  To zoom in/out horizontally (along x) only
+
+8 / 2 (ideally keys from the numeric keypad)
+  To zoom in/out vertically (along y) only
+
+CTRL+L
+  To restore the last ~stable x&y view range
+
+V
+  To change the vertical exaggeration ratio
+
+X / Y
+  To set the central X/Y coordinate of the view range
+
+RIGHT / LEFT / UP / DOWN
+  To move the view range in the desired direction
+
+R, 0
+  To reset (restore) the zoom to the initial view
+
+====================== Mouse actions: =======================
+
+CLICK & DRAG
+  To move the view range freely using the mouse
+
+CLICK ONLY
+  To recenter the view at the clicked x,y location
+  and display that location's x,y coordinates
+
+!REMARK!
+  Due to limited reliability of R-Graphics devices'
+  mouse event management, mouse-up events are often
+  missed by R's GraphicsEventHandlers, which results
+  in frequent unwanted moves of the x&y view range.
+  I hope this issue will eventually be solved in a
+  future release of R.
+
+________ Thanks for testing this homemade R script! _________

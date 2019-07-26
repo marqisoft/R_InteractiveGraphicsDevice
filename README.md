@@ -33,7 +33,7 @@ _(Note "talks = FALSE" added to dragplot arguments)_
     getGraphicsEvent()
     par(savepar)
     
-## Example test code no 4: Markov random walk + Use of a custom plotting function (plotFUN) + Dynamic selection of visible data only when plotting + Optional interaction
+## Example test code no 4: Markov random walk + Custom plotting function (plotFUN) + Dynamic selection of visible data only when plotting + Optional interaction
     
     #!Global parameters
     optInteractivePlotMode <- T #to let the user decide if he wants interaction or not
